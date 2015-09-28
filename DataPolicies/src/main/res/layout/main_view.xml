@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    >
+  <FrameLayout
+      android:layout_marginLeft="30dp"
+      android:layout_width="1dp"
+      android:layout_height="match_parent"
+      android:background="@color/detail_vertical_line_color"
+      ></FrameLayout>
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/news_list"
+      android:scrollbars="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">Android news</string>
+  <string name="delete_db">Delete database</string>
+  <string name="force_update">Force update</string>
+  <string name="cloud">Update cloud</string>
+</resources>
