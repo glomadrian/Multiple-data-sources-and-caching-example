@@ -1,11 +1,12 @@
-package com.github.glomadrian.androidsamples.datapolicies.domain.repository.news;
+package com.github.glomadrian.androidsamples.datapolicies.data.news;
 
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.NewsDataSources;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity.NewsCloudOnlyWIthUpdate;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity.NewsDataBaseFirstPolicy;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity.NewsPolice;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity.NewsPolices;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.NewsDataSources;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.policity.NewsCloudOnlyWIthUpdate;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.policity.NewsDataBaseFirstPolicy;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.policity.NewsPolicy;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.policity.NewsPolices;
+import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.NewsRepository;
 import java.util.List;
 
 /**
@@ -13,7 +14,7 @@ import java.util.List;
  */
 public class NewsRepositoryImp implements NewsRepository {
 
-  private NewsPolice lastPoliceUsed;
+  private NewsPolicy lastPoliceUsed;
   private NewsPolices policy;
   private NewsDataBaseFirstPolicy newsDataBaseFirstPolicy;
   private NewsCloudOnlyWIthUpdate newsCloudOnlyWIthUpdate;

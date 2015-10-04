@@ -1,4 +1,4 @@
-package com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database;
+package com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database;
 
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
 import java.util.List;

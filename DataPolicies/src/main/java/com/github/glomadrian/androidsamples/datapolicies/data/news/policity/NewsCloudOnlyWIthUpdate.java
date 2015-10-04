@@ -1,8 +1,8 @@
-package com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity;
+package com.github.glomadrian.androidsamples.datapolicies.data.news.policity;
 
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.cloud.CloudNewsDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.DataBaseDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.cloud.CloudNewsDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.DataBaseDataSource;
 import java.util.List;
 
 /**

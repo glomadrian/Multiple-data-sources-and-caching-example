@@ -3,8 +3,8 @@ package com.github.glomadrian.androidsamples.datapolicies.domain.interactor.news
 import com.github.glomadrian.androidsamples.datapolicies.app.executor.interactor.InteractorExecutor;
 import com.github.glomadrian.androidsamples.datapolicies.app.executor.main.MainThreadExecutor;
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.NewsRepositoryImp;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity.NewsPolices;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.NewsRepositoryImp;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.policity.NewsPolices;
 import java.util.List;
 
 /**

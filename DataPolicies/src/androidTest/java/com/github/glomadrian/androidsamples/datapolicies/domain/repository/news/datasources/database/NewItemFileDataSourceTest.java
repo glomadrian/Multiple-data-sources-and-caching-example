@@ -3,8 +3,8 @@ package com.github.glomadrian.androidsamples.datapolicies.domain.repository.news
 import android.test.AndroidTestCase;
 import com.github.glomadrian.androidsamples.datapolicies.NewsBuilder;
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.DataBaseDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.NewFileDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.DataBaseDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.NewFileDataSource;
 import java.util.List;
 
 /**

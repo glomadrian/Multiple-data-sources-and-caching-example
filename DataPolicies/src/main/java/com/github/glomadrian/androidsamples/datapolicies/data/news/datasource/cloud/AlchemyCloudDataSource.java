@@ -1,4 +1,4 @@
-package com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.cloud;
+package com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.cloud;
 
 import com.github.glomadrian.androidsamples.datapolicies.data.alchemynews.AlchemyApi;
 import com.github.glomadrian.androidsamples.datapolicies.data.alchemynews.model.AlchemyResponse;

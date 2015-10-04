@@ -1,8 +1,8 @@
-package com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database;
+package com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database;
 
 import android.content.Context;
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.exception.FileDataSourceException;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.exception.FileDataSourceException;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.io.BufferedReader;

@@ -1,10 +1,10 @@
-package com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity;
+package com.github.glomadrian.androidsamples.datapolicies.data.news.policity;
 
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.NewsDataSources;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.cloud.CloudNewsDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.DataBaseDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.exception.FileDataSourceException;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.NewsDataSources;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.cloud.CloudNewsDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.DataBaseDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.exception.FileDataSourceException;
 import java.util.List;
 
 /**
@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Adrián García Lomas
  */
-public class NewsDataBaseFirstPolicy implements NewsPolice {
+public class NewsDataBaseFirstPolicy implements NewsPolicy {
 
   private DataBaseDataSource dataBaseDataSource;
   private CloudNewsDataSource cloudNewsDataSource;

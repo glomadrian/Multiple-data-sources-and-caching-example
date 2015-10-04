@@ -12,14 +12,14 @@ import com.github.glomadrian.androidsamples.datapolicies.domain.interactor.news.
 import com.github.glomadrian.androidsamples.datapolicies.domain.interactor.news.GetTodayNewsInteractor;
 import com.github.glomadrian.androidsamples.datapolicies.domain.mapper.AlchemyDocToNewItemMapper;
 import com.github.glomadrian.androidsamples.datapolicies.domain.mapper.AlchemyResponseToNews;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.NewsRepositoryImp;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.cloud.AlchemyCloudDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.cloud.CloudNewsDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.DataBaseDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.NewFileDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity.NewsCloudOnlyPolicy;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity.NewsCloudOnlyWIthUpdate;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity.NewsDataBaseFirstPolicy;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.NewsRepositoryImp;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.cloud.AlchemyCloudDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.cloud.CloudNewsDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.DataBaseDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.NewFileDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.policity.NewsCloudOnlyPolicy;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.policity.NewsCloudOnlyWIthUpdate;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.policity.NewsDataBaseFirstPolicy;
 import com.github.glomadrian.androidsamples.datapolicies.ui.main.presenter.MainPresenter;
 import com.github.glomadrian.androidsamples.datapolicies.ui.newitem.presenter.NewItemPresenter;
 

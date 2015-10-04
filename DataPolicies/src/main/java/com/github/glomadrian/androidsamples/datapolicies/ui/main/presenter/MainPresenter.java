@@ -4,7 +4,7 @@ import com.github.glomadrian.androidsamples.datapolicies.domain.interactor.news.
 import com.github.glomadrian.androidsamples.datapolicies.domain.interactor.news.GetTodayNewsCloudInteractor;
 import com.github.glomadrian.androidsamples.datapolicies.domain.interactor.news.GetTodayNewsInteractor;
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.NewsDataSources;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.NewsDataSources;
 import com.github.glomadrian.androidsamples.datapolicies.ui.LifeCyclePresenter;
 import com.github.glomadrian.androidsamples.datapolicies.ui.main.view.MainActivity;
 import java.util.List;

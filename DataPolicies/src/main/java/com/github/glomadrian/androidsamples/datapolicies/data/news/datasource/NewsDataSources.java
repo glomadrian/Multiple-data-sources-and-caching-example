@@ -1,4 +1,4 @@
-package com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource;
+package com.github.glomadrian.androidsamples.datapolicies.data.news.datasource;
 
 /**
  * @author Adrián García Lomas

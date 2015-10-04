@@ -1,15 +1,15 @@
-package com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity;
+package com.github.glomadrian.androidsamples.datapolicies.data.news.policity;
 
 import android.test.AndroidTestCase;
 import com.github.glomadrian.androidsamples.datapolicies.data.alchemynews.RetrofitAlchemyApi;
 import com.github.glomadrian.androidsamples.datapolicies.domain.mapper.AlchemyDocToNewItemMapper;
 import com.github.glomadrian.androidsamples.datapolicies.domain.mapper.AlchemyResponseToNews;
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.NewsDataSources;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.cloud.AlchemyCloudDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.cloud.CloudNewsDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.DataBaseDataSource;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.NewFileDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.NewsDataSources;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.cloud.AlchemyCloudDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.cloud.CloudNewsDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.DataBaseDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.NewFileDataSource;
 import java.io.File;
 import java.util.List;
 import junit.framework.Assert;

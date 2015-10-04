@@ -3,7 +3,7 @@ package com.github.glomadrian.androidsamples.datapolicies.domain.interactor.news
 import com.github.glomadrian.androidsamples.datapolicies.app.executor.interactor.InteractorExecutor;
 import com.github.glomadrian.androidsamples.datapolicies.app.executor.main.MainThreadExecutor;
 import com.github.glomadrian.androidsamples.datapolicies.domain.interactor.AbstractInteractor;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.database.DataBaseDataSource;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.database.DataBaseDataSource;
 
 /**
  * @author Adrián García Lomas

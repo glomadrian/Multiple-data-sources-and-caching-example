@@ -4,9 +4,9 @@ import com.github.glomadrian.androidsamples.datapolicies.app.executor.interactor
 import com.github.glomadrian.androidsamples.datapolicies.app.executor.main.MainThreadExecutor;
 import com.github.glomadrian.androidsamples.datapolicies.domain.interactor.AbstractInteractor;
 import com.github.glomadrian.androidsamples.datapolicies.domain.model.NewItem;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.NewsRepositoryImp;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.datasource.NewsDataSources;
-import com.github.glomadrian.androidsamples.datapolicies.domain.repository.news.policity.NewsPolices;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.NewsRepositoryImp;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.datasource.NewsDataSources;
+import com.github.glomadrian.androidsamples.datapolicies.data.news.policity.NewsPolices;
 import java.util.List;
 
 /**
